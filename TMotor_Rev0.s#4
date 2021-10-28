@@ -25785,6 +25785,12 @@ Source: &lt;a href="https://store.arduino.cc/arduino-nano-every"&gt; Datasheet &
 <wire x1="-68.58" y1="203.2" x2="-68.58" y2="208.28" width="0.1524" layer="91"/>
 <label x="-66.04" y="203.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-254" y1="86.36" x2="-248.92" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="86.36" x2="-248.92" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -26180,14 +26186,6 @@ Source: &lt;a href="https://store.arduino.cc/arduino-nano-every"&gt; Datasheet &
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="-287.02" y1="86.36" x2="-289.56" y2="86.36" width="0.1524" layer="91"/>
 <label x="-297.18" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-254" y1="86.36" x2="-248.92" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-248.92" y1="86.36" x2="-248.92" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="H_INT" class="0">
