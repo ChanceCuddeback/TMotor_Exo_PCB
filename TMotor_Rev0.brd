@@ -168,6 +168,10 @@
 <text x="8.255" y="70.1675" size="1.778" layer="21">AK_Board V0</text>
 <text x="1.5875" y="62.5475" size="1.778" layer="21">CAN</text>
 <text x="1.5875" y="56.8325" size="1.778" layer="21">LLS</text>
+<dimension x1="52.07" y1="21.9075" x2="52.07" y2="8.89" x3="60.96" y3="15.39875" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="74.93" x2="56.515" y2="74.93" x3="28.2575" y3="80.645" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="74.93" x2="0" y2="8.5725" x3="-8.255" y3="41.75125" textsize="1.778" layer="1"/>
+<dimension x1="4.1275" y1="70.1675" x2="0" y2="70.1675" x3="2.06375" y3="77.47" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
