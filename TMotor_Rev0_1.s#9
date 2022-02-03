@@ -24887,7 +24887,6 @@ W = angled&lt;p&gt;
 <part name="U$3" library="XT30PW-M" deviceset="XT30PW-F" device=""/>
 <part name="STOP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J11" library="SnapEDA-Library" deviceset="5015680207" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25153,7 +25152,7 @@ W = angled&lt;p&gt;
 <label x="53.34" y="10.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="TRQ_AMP_L_1" class="0">
+<net name="TRQ_AMP_L1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="39/A20"/>
 <wire x1="193.04" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
@@ -25161,7 +25160,7 @@ W = angled&lt;p&gt;
 <junction x="200.66" y="27.94"/>
 </segment>
 </net>
-<net name="TRQ_AMP_R_1" class="0">
+<net name="TRQ_AMP_R1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="38/A19"/>
 <wire x1="193.04" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
@@ -25336,10 +25335,6 @@ W = angled&lt;p&gt;
 </instance>
 <instance part="GND23" gate="1" x="-309.88" y="195.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-309.88" y="195.326" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="J11" gate="G$1" x="-139.7" y="73.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="-130.81" y="81.28" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-149.86" y="81.28" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -26437,21 +26432,6 @@ W = angled&lt;p&gt;
 <junction x="414.02" y="48.26"/>
 <label x="416.56" y="50.8" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="A" pin="SENSE"/>
-<pinref part="U4" gate="A" pin="VO"/>
-<wire x1="358.14" y1="-10.16" x2="358.14" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="-12.7" x2="368.3" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="358.14" y="-12.7"/>
-<wire x1="368.3" y1="-12.7" x2="370.84" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="-12.7" x2="370.84" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="370.84" y1="-15.24" x2="375.92" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-15.24" x2="414.02" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="375.92" y="-15.24"/>
-<junction x="414.02" y="-15.24"/>
-<label x="416.56" y="-12.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="TRQ_AMP_L" class="0">
 <segment>
@@ -26465,18 +26445,6 @@ W = angled&lt;p&gt;
 <wire x1="-5.08" y1="50.8" x2="-22.86" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-5.08" y="50.8"/>
 <junction x="-22.86" y="50.8"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="SENSE"/>
-<pinref part="U3" gate="A" pin="VO"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="10.16" y="-12.7"/>
-<label x="-22.86" y="-12.7" size="1.778" layer="95" rot="R180"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-12.7"/>
-<junction x="-22.86" y="-12.7"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -26785,6 +26753,37 @@ W = angled&lt;p&gt;
 <wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="5.08" y="-2.54"/>
 <label x="5.08" y="-2.54" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="TRQ_AMP_L1" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="SENSE"/>
+<pinref part="U3" gate="A" pin="VO"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="10.16" y="-12.7"/>
+<label x="-22.86" y="-12.7" size="1.778" layer="95" rot="R180"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-12.7"/>
+<junction x="-22.86" y="-12.7"/>
+</segment>
+</net>
+<net name="TRQ_AMP_R1" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="SENSE"/>
+<pinref part="U4" gate="A" pin="VO"/>
+<wire x1="358.14" y1="-10.16" x2="358.14" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-12.7" x2="368.3" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="358.14" y="-12.7"/>
+<wire x1="368.3" y1="-12.7" x2="370.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="-12.7" x2="370.84" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="370.84" y1="-15.24" x2="375.92" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-15.24" x2="414.02" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="375.92" y="-15.24"/>
+<junction x="414.02" y="-15.24"/>
+<label x="416.56" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

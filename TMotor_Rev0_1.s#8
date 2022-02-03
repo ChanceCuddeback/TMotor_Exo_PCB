@@ -24997,20 +24997,12 @@ W = angled&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="11/MOSI"/>
 </segment>
 </net>
-<net name="TRQ_AMP_L" class="0">
+<net name="TRQ_AMP_R" class="0">
 <segment>
 <wire x1="193.04" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
 <junction x="200.66" y="33.02"/>
 <label x="200.66" y="33.02" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="41/A22"/>
-</segment>
-</net>
-<net name="TRQ_AMP_R" class="0">
-<segment>
-<wire x1="193.04" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
-<junction x="200.66" y="30.48"/>
-<label x="200.66" y="30.48" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="40/A21"/>
 </segment>
 </net>
 <net name="FSR_TOE_L" class="0">
@@ -25117,12 +25109,6 @@ W = angled&lt;p&gt;
 </net>
 <net name="FSR_HEEL_R" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="A7"/>
-<wire x1="60.96" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<junction x="43.18" y="15.24"/>
-<label x="43.18" y="15.24" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <wire x1="193.04" y1="17.78" x2="199.898" y2="17.78" width="0.1524" layer="91"/>
 <junction x="199.898" y="17.78"/>
 <label x="201.93" y="17.78" size="1.778" layer="95"/>
@@ -25152,20 +25138,12 @@ W = angled&lt;p&gt;
 <label x="53.34" y="10.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="TRQ_AMP_L1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="39/A20"/>
-<wire x1="193.04" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="200.66" y="27.94" size="1.778" layer="95"/>
-<junction x="200.66" y="27.94"/>
-</segment>
-</net>
 <net name="TRQ_AMP_R1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="38/A19"/>
-<wire x1="193.04" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="200.66" y="25.4" size="1.778" layer="95"/>
-<junction x="200.66" y="25.4"/>
+<wire x1="193.04" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<junction x="200.66" y="30.48"/>
+<label x="200.66" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="40/A21"/>
 </segment>
 </net>
 <net name="CANRX" class="0">
@@ -25190,6 +25168,22 @@ W = angled&lt;p&gt;
 <wire x1="152.4" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="144.78" y="53.34" size="1.778" layer="95" rot="R180"/>
 <junction x="144.78" y="53.34"/>
+</segment>
+</net>
+<net name="TRQ_AMP_L" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="39/A20"/>
+<wire x1="193.04" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95"/>
+<junction x="200.66" y="27.94"/>
+</segment>
+</net>
+<net name="TRQ_AMP_L1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="38/A19"/>
+<wire x1="193.04" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="200.66" y="25.4" size="1.778" layer="95"/>
+<junction x="200.66" y="25.4"/>
 </segment>
 </net>
 </nets>

@@ -25317,7 +25317,6 @@ W = angled&lt;p&gt;
 </net>
 <net name="SCL0" class="0">
 <segment>
-<wire x1="61.468" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <label x="48.26" y="20.32" size="1.778" layer="95" rot="R180"/>
 <pinref part="USB" gate="G$1" pin="A5"/>
@@ -26545,6 +26544,7 @@ W = angled&lt;p&gt;
 <label x="129.54" y="60.96" size="1.778" layer="95" rot="MR0"/>
 <junction x="91.44" y="58.42"/>
 <pinref part="JL" gate="G$1" pin="3"/>
+<junction x="91.44" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="V-"/>
@@ -26602,6 +26602,7 @@ W = angled&lt;p&gt;
 <label x="129.54" y="-2.54" size="1.778" layer="95" rot="MR0"/>
 <junction x="91.44" y="-5.08"/>
 <pinref part="JL1" gate="G$1" pin="3"/>
+<junction x="91.44" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="V-"/>
@@ -27053,11 +27054,63 @@ W = angled&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,2,-193.04,205.74,INA219,VS,VIN,,,"/>
+<approved hash="104,2,-121.92,127,SWD,VCC,SW3.3V,,,"/>
+<approved hash="104,2,-121.92,124.46,SWD,GND,SWGND,,,"/>
+<approved hash="104,2,-121.92,121.92,SWD,GND,SWGND,,,"/>
+<approved hash="104,5,76.2,66.04,U1,V+,3.3V,,,"/>
+<approved hash="104,5,76.2,60.96,U1,V-,GND,,,"/>
+<approved hash="104,5,10.16,55.88,U1,VREFCOM,GND,,,"/>
+<approved hash="104,5,10.16,58.42,U1,VREFBG,N$3,,,"/>
+<approved hash="104,5,10.16,60.96,U1,VREF2.5,N$39,,,"/>
+<approved hash="104,5,10.16,63.5,U1,VREF5,N$38,,,"/>
+<approved hash="104,5,10.16,66.04,U1,VREF10,N$37,,,"/>
+<approved hash="104,5,292.1,66.04,U2,V+,3.3V,,,"/>
+<approved hash="104,5,292.1,60.96,U2,V-,GND,,,"/>
+<approved hash="104,5,358.14,55.88,U2,VREFCOM,GND,,,"/>
+<approved hash="104,5,358.14,58.42,U2,VREFBG,N$5,,,"/>
+<approved hash="104,5,358.14,60.96,U2,VREF2.5,N$22,,,"/>
+<approved hash="104,5,358.14,63.5,U2,VREF5,N$21,,,"/>
+<approved hash="104,5,358.14,66.04,U2,VREF10,N$20,,,"/>
+<approved hash="104,5,76.2,2.54,U3,V+,3.3V,,,"/>
+<approved hash="104,5,76.2,-2.54,U3,V-,GND,,,"/>
+<approved hash="104,5,10.16,-7.62,U3,VREFCOM,GND,,,"/>
+<approved hash="104,5,10.16,-5.08,U3,VREFBG,N$32,,,"/>
+<approved hash="104,5,10.16,-2.54,U3,VREF2.5,N$42,,,"/>
+<approved hash="104,5,10.16,0,U3,VREF5,N$41,,,"/>
+<approved hash="104,5,10.16,2.54,U3,VREF10,N$40,,,"/>
+<approved hash="104,5,292.1,2.54,U4,V+,3.3V,,,"/>
+<approved hash="104,5,292.1,-2.54,U4,V-,GND,,,"/>
+<approved hash="104,5,358.14,-7.62,U4,VREFCOM,GND,,,"/>
+<approved hash="104,5,358.14,-5.08,U4,VREFBG,N$15,,,"/>
+<approved hash="104,5,358.14,-2.54,U4,VREF2.5,N$19,,,"/>
+<approved hash="104,5,358.14,0,U4,VREF5,N$14,,,"/>
+<approved hash="104,5,358.14,2.54,U4,VREF10,N$4,,,"/>
 <approved hash="202,2,-299.72,86.36,U5,VREF,,,,"/>
-<approved hash="206,5,10.16,50.8,TRQ_AMP_L,,,,,"/>
-<approved hash="206,5,10.16,-12.7,TRQ_AMP_L,,,,,"/>
-<approved hash="206,5,358.14,50.8,TRQ_AMP_R,,,,,"/>
-<approved hash="206,5,358.14,-12.7,TRQ_AMP_R,,,,,"/>
+<approved hash="104,2,-264.16,99.06,U5,VCC,3.3V,,,"/>
+<approved hash="106,5,358.14,2.54,N$4,,,,,"/>
+<approved hash="106,5,358.14,0,N$14,,,,,"/>
+<approved hash="106,5,358.14,-2.54,N$19,,,,,"/>
+<approved hash="106,5,358.14,66.04,N$20,,,,,"/>
+<approved hash="106,5,358.14,63.5,N$21,,,,,"/>
+<approved hash="106,5,358.14,60.96,N$22,,,,,"/>
+<approved hash="106,5,10.16,66.04,N$37,,,,,"/>
+<approved hash="106,5,10.16,63.5,N$38,,,,,"/>
+<approved hash="106,5,10.16,60.96,N$39,,,,,"/>
+<approved hash="106,5,10.16,2.54,N$40,,,,,"/>
+<approved hash="106,5,10.16,0,N$41,,,,,"/>
+<approved hash="106,5,10.16,-2.54,N$42,,,,,"/>
+<approved hash="111,5,281.94,53.34,N$8,,,,,"/>
+<approved hash="111,5,91.44,53.34,N$10,,,,,"/>
+<approved hash="111,5,281.94,-10.16,N$28,,,,,"/>
+<approved hash="111,5,91.44,-10.16,N$33,,,,,"/>
+<approved hash="113,2,-299.043,187.797,FAN,,,,,"/>
+<approved hash="113,2,-163.788,122.964,POGO,,,,,"/>
+<approved hash="113,4,31.9126,20.9973,SYNC_LED,,,,,"/>
+<approved hash="113,4,135.932,37.1196,RGB_LED,,,,,"/>
+<approved hash="113,2,-299.043,159.857,RESET,,,,,"/>
+<approved hash="113,2,-300.704,139.537,SYNC_DEFAULT,,,,,"/>
+<approved hash="113,2,-299.043,203.037,STOP,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -25249,10 +25249,10 @@ W = angled&lt;p&gt;
 <wire x1="91.44" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="40.64" x2="144.526" y2="40.64" width="0.1524" layer="91"/>
-<junction x="144.526" y="40.64"/>
-<label x="144.272" y="40.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="11/MOSI"/>
+<pinref part="U$1" gate="G$1" pin="12/MISO"/>
+<wire x1="152.4" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<junction x="144.78" y="38.1"/>
+<label x="144.78" y="38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="TRQ_AMP_R" class="0">
@@ -25287,10 +25287,10 @@ W = angled&lt;p&gt;
 <label x="99.06" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
-<junction x="144.78" y="38.1"/>
-<label x="144.526" y="37.846" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="12/MISO"/>
+<pinref part="U$1" gate="G$1" pin="11/MOSI"/>
+<wire x1="152.4" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<junction x="144.78" y="40.64"/>
+<label x="144.78" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCK" class="0">
