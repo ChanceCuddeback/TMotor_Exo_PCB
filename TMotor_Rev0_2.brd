@@ -3925,13 +3925,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="-26.416" y="12.5095" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U$1" library="Teensy356" package="TEENSY_3.5/3.6_EXTERNAL_W/RESET" value="TEENSY_3.5/3.6_EXTERNAL_W/RESET" x="-17.4625" y="44.1325" smashed="yes" rot="R90"/>
-<element name="RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="-30.7975" y="29.5275" smashed="yes" rot="R90">
-<attribute name="NAME" x="-32.1945" y="28.2575" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="-28.7655" y="28.2575" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="-30.7975" y="35.8775" smashed="yes" rot="R90">
+<attribute name="NAME" x="-32.1945" y="34.6075" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="-28.7655" y="34.6075" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="SYNC_DEFAULT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="-30.7975" y="35.2425" smashed="yes" rot="R90">
-<attribute name="NAME" x="-32.1945" y="33.9725" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="-28.7655" y="33.9725" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="SYNC_DEFAULT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="-28.8925" y="31.4325" smashed="yes" rot="R180">
+<attribute name="NAME" x="-27.6225" y="30.0355" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="-27.6225" y="33.4645" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U$4" library="XT30PW-M" package="XT30PWF" value="XT30PW-F" x="50.8" y="78.74" smashed="yes">
 <attribute name="NAME" x="50.8" y="82.55" size="1.27" layer="25" align="center"/>
@@ -4783,19 +4783,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="SYNC_DEFAULT">
 <contactref element="SYNC_DEFAULT" pad="1"/>
-<wire x1="-32.0929" y1="28.990925" x2="-31.334075" y2="28.2321" width="0.4064" layer="16"/>
-<wire x1="-31.334075" y1="28.2321" x2="-30.260925" y2="28.2321" width="0.4064" layer="16"/>
-<wire x1="-32.0929" y1="32.604075" x2="-32.0929" y2="28.990925" width="0.4064" layer="16"/>
-<wire x1="-30.260925" y1="28.2321" x2="-25.600025" y2="32.893" width="0.4064" layer="16"/>
-<wire x1="-25.600025" y1="32.893" x2="-20.193" y2="32.893" width="0.4064" layer="16"/>
-<wire x1="-30.7975" y1="35.2425" x2="-30.7975" y2="33.899475" width="0.4064" layer="16"/>
-<wire x1="-30.7975" y1="33.899475" x2="-32.0929" y2="32.604075" width="0.4064" layer="16"/>
+<wire x1="-25.600025" y1="32.893" x2="-25.4" y2="32.893" width="0.4064" layer="16"/>
 <contactref element="U$1" pad="27"/>
+<wire x1="-25.4" y1="32.893" x2="-20.193" y2="32.893" width="0.4064" layer="16"/>
 <wire x1="-20.193" y1="32.893" x2="-15.24" y2="37.846" width="0.4064" layer="16"/>
 <wire x1="-13.0683" y1="58.3377" x2="-13.0683" y2="58.6867" width="0.4064" layer="16"/>
 <wire x1="-13.0683" y1="58.6867" x2="-9.8425" y2="61.9125" width="0.4064" layer="16"/>
 <wire x1="-15.24" y1="56.166" x2="-13.0683" y2="58.3377" width="0.4064" layer="16"/>
 <wire x1="-15.24" y1="37.846" x2="-15.24" y2="56.166" width="0.4064" layer="16"/>
+<wire x1="-25.600025" y1="32.893" x2="-27.432" y2="32.893" width="0.4064" layer="16"/>
+<wire x1="-27.432" y1="32.893" x2="-28.8925" y2="31.4325" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="R3" pad="2"/>
@@ -4911,9 +4908,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-25.52964375" y1="50.292" x2="-26.162" y2="49.65964375" width="0.4064" layer="16"/>
 <wire x1="-26.162" y1="49.65964375" x2="-26.162" y2="48.76535625" width="0.4064" layer="16"/>
 <wire x1="-26.162" y1="48.76535625" x2="-25.52964375" y2="48.133" width="0.4064" layer="16"/>
-<wire x1="-25.52964375" y1="35.052" x2="-26.162" y2="34.41964375" width="0.4064" layer="16"/>
-<wire x1="-26.162" y1="34.41964375" x2="-26.162" y2="34.163" width="0.4064" layer="16"/>
-<wire x1="-26.162" y1="34.163" x2="-30.7975" y2="29.5275" width="0.4064" layer="16"/>
+<wire x1="-30.7975" y1="35.8775" x2="-29.972" y2="35.052" width="0.4064" layer="16"/>
+<wire x1="-25.01635625" y1="35.052" x2="-29.972" y2="35.052" width="0.4064" layer="16"/>
 <wire x1="-22.5552" y1="52.75315625" x2="-25.01635625" y2="50.292" width="0.4064" layer="16"/>
 <wire x1="-25.01635625" y1="50.292" x2="-25.52964375" y2="50.292" width="0.4064" layer="16"/>
 <wire x1="-25.52964375" y1="48.133" x2="-25.01635625" y2="48.133" width="0.4064" layer="16"/>
@@ -4921,7 +4917,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-22.5552" y1="58.8833" x2="-22.5552" y2="52.75315625" width="0.4064" layer="16"/>
 <wire x1="-24.003" y1="47.11964375" x2="-24.003" y2="36.06535625" width="0.4064" layer="16"/>
 <wire x1="-24.003" y1="36.06535625" x2="-25.01635625" y2="35.052" width="0.4064" layer="16"/>
-<wire x1="-25.01635625" y1="35.052" x2="-25.52964375" y2="35.052" width="0.4064" layer="16"/>
 <wire x1="-10.28964375" y1="58.293" x2="-10.922" y2="58.92535625" width="0.4064" layer="1"/>
 <wire x1="-10.922" y1="58.92535625" x2="-10.922" y2="59.309" width="0.4064" layer="1"/>
 <wire x1="-10.922" y1="59.309" x2="-12.319" y2="60.706" width="0.4064" layer="1"/>
