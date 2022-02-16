@@ -25326,42 +25326,42 @@ W = angled&lt;p&gt;
 </net>
 <net name="SYNC_SIG" class="0">
 <segment>
-<label x="142.24" y="22.86" size="1.778" layer="95" rot="R180"/>
-<junction x="142.24" y="22.86"/>
-<pinref part="U$1" gate="G$1" pin="28"/>
-<wire x1="152.4" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="140.97" y="20.32" size="1.778" layer="95" rot="R180"/>
+<junction x="142.24" y="20.32"/>
+<pinref part="U$1" gate="G$1" pin="29/PWM"/>
 </segment>
 </net>
 <net name="RED_LED_SIG" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="14/A0"/>
-<wire x1="193.04" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
-<junction x="200.66" y="40.64"/>
-<label x="200.66" y="40.64" size="1.778" layer="95"/>
+<wire x1="152.4" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="140.97" y="22.86" size="1.778" layer="95" rot="R180"/>
+<junction x="142.24" y="22.86"/>
+<pinref part="U$1" gate="G$1" pin="28"/>
 </segment>
 </net>
 <net name="GREEN_LED_SIG" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="16/A2"/>
-<wire x1="193.04" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<junction x="200.66" y="45.72"/>
-<label x="200.66" y="45.72" size="1.778" layer="95"/>
+<wire x1="152.4" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="140.97" y="25.4" size="1.778" layer="91" rot="R180"/>
+<junction x="142.24" y="25.4"/>
+<pinref part="U$1" gate="G$1" pin="27"/>
 </segment>
 </net>
 <net name="BLUE_LED_SIG" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="17/A3"/>
-<wire x1="193.04" y1="48.26" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
-<junction x="200.66" y="48.26"/>
-<label x="200.66" y="48.26" size="1.778" layer="95"/>
+<wire x1="152.4" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="140.97" y="27.94" size="1.778" layer="95" rot="R180"/>
+<junction x="142.24" y="27.94"/>
+<pinref part="U$1" gate="G$1" pin="26"/>
 </segment>
 </net>
 <net name="SYNC_DEFAULT" class="0">
 <segment>
-<junction x="142.24" y="25.4"/>
-<label x="142.24" y="25.4" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="27"/>
-<wire x1="152.4" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
+<junction x="142.24" y="30.48"/>
+<label x="140.716" y="30.226" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="25"/>
 </segment>
 </net>
 <net name="FSR_HEEL_R" class="0">
