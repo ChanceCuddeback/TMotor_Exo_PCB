@@ -27583,8 +27583,8 @@ Description&lt;br&gt;
 <approved hash="111,5,91.44,-10.16,N$33,,,,,"/>
 <approved hash="113,2,-299.043,187.797,FAN,,,,,"/>
 <approved hash="113,2,-163.788,122.964,POGO,,,,,"/>
-<approved hash="113,4,31.9126,20.9973,SYNC_LED,,,,,"/>
-<approved hash="113,4,135.932,37.1196,RGB_LED,,,,,"/>
+<approved hash="113,4,30.6426,20.9973,SYNC_LED,,,,,"/>
+<approved hash="113,4,134.662,35.8496,RGB_LED,,,,,"/>
 <approved hash="113,2,-299.043,159.857,RESET,,,,,"/>
 <approved hash="113,2,-300.704,139.537,SYNC_DEFAULT,,,,,"/>
 <approved hash="113,2,-299.043,203.037,STOP,,,,,"/>
