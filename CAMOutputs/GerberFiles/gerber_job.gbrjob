@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-12-08T22:40:17Z",
+        "CreationDate": "2022-04-05T16:47:51Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,11 +13,11 @@
         "BoardThickness": 1.671119,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "TMotor_Rev0_1"
+            "ProjectId": "TMotor_Rev0_3"
         },
         "Owner": "paul stegall <paul.stegall@nau.edu>",
         "Size": {
-            "X": 91.46,
+            "X": 106.66,
             "Y": 74.285
         }
     }
