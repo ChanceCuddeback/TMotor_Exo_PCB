@@ -24558,27 +24558,6 @@ W = angled&lt;p&gt;
 <rectangle x1="2.159" y1="-10.414" x2="2.921" y2="-8.509" layer="51"/>
 <hole x="0" y="7.366" drill="3.302"/>
 </package>
-<package name="P78E05-1000">
-<wire x1="-5.8" y1="-4.84" x2="-5.8" y2="3.16" width="0.127" layer="51"/>
-<wire x1="-5.8" y1="3.16" x2="5.8" y2="3.16" width="0.127" layer="51"/>
-<wire x1="5.8" y1="3.16" x2="5.8" y2="-4.84" width="0.127" layer="51"/>
-<wire x1="5.8" y1="-4.84" x2="-5.8" y2="-4.84" width="0.127" layer="51"/>
-<wire x1="-5.8" y1="-4.84" x2="-5.8" y2="3.16" width="0.127" layer="21"/>
-<wire x1="-5.8" y1="3.16" x2="5.8" y2="3.16" width="0.127" layer="21"/>
-<wire x1="5.8" y1="3.16" x2="5.8" y2="-4.84" width="0.127" layer="21"/>
-<wire x1="5.8" y1="-4.84" x2="-5.8" y2="-4.84" width="0.127" layer="21"/>
-<wire x1="-6.05" y1="-5.09" x2="-6.05" y2="3.41" width="0.05" layer="39"/>
-<wire x1="-6.05" y1="3.41" x2="6.05" y2="3.41" width="0.05" layer="39"/>
-<wire x1="6.05" y1="3.41" x2="6.05" y2="-5.09" width="0.05" layer="39"/>
-<wire x1="6.05" y1="-5.09" x2="-6.05" y2="-5.09" width="0.05" layer="39"/>
-<circle x="-2.54" y="-5.54" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.54" y="-5.54" radius="0.1" width="0.2" layer="51"/>
-<text x="-6.1" y="3.56" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.2" y="-7.04" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="-2.54" drill="1" shape="square"/>
-<pad name="2" x="0" y="-2.54" drill="1"/>
-<pad name="3" x="2.54" y="-2.54" drill="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="5015680507">
@@ -24813,17 +24792,6 @@ W = angled&lt;p&gt;
 <wire x1="1.778" y1="0" x2="3.302" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="2.032" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="P78E05-1000">
-<wire x1="15.24" y1="-7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<text x="-15.24" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+VIN" x="-20.32" y="2.54" length="middle" direction="in"/>
-<pin name="+VOUT/GND" x="20.32" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND/-VOUT" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5015680507" prefix="J">
@@ -25055,31 +25023,6 @@ N-Channel 30 V 3.5A (Ta) 1W (Ta) Surface Mount SOT-23F
 </device>
 </devices>
 </deviceset>
-<deviceset name="P78E05-1000">
-<description>&lt;h1&gt; Digikey&lt;/h1&gt;
-&lt;br&gt;
-&lt;b&gt;
-102-5018-ND
-&lt;/b&gt;
-
-&lt;p&gt;
-Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="P78E05-1000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="P78E05-1000">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="1"/>
-<connect gate="G$1" pin="+VOUT/GND" pad="2"/>
-<connect gate="G$1" pin="GND/-VOUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SnapEDA-Library (1)">
@@ -25140,6 +25083,71 @@ Description&lt;br&gt;
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SnapEDA-Library_Paul">
+<packages>
+<package name="P78E05-1000">
+<wire x1="-5.8" y1="-4.84" x2="-5.8" y2="3.16" width="0.127" layer="51"/>
+<wire x1="-5.8" y1="3.16" x2="5.8" y2="3.16" width="0.127" layer="51"/>
+<wire x1="5.8" y1="3.16" x2="5.8" y2="-4.84" width="0.127" layer="51"/>
+<wire x1="5.8" y1="-4.84" x2="-5.8" y2="-4.84" width="0.127" layer="51"/>
+<wire x1="-5.8" y1="-4.84" x2="-5.8" y2="3.16" width="0.127" layer="21"/>
+<wire x1="-5.8" y1="3.16" x2="5.8" y2="3.16" width="0.127" layer="21"/>
+<wire x1="5.8" y1="3.16" x2="5.8" y2="-4.84" width="0.127" layer="21"/>
+<wire x1="5.8" y1="-4.84" x2="-5.8" y2="-4.84" width="0.127" layer="21"/>
+<wire x1="-6.05" y1="-5.09" x2="-6.05" y2="3.41" width="0.05" layer="39"/>
+<wire x1="-6.05" y1="3.41" x2="6.05" y2="3.41" width="0.05" layer="39"/>
+<wire x1="6.05" y1="3.41" x2="6.05" y2="-5.09" width="0.05" layer="39"/>
+<wire x1="6.05" y1="-5.09" x2="-6.05" y2="-5.09" width="0.05" layer="39"/>
+<circle x="-2.54" y="-5.54" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.54" y="-5.54" radius="0.1" width="0.2" layer="51"/>
+<text x="-6.1" y="3.56" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.2" y="-7.04" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="-2.54" drill="1" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="1"/>
+<pad name="3" x="2.54" y="-2.54" drill="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="P78E05-1000">
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<text x="-15.24" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+VIN" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="GND/-VOUT" x="20.32" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="+VOUT/GND" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="P78E05-1000">
+<description>&lt;h1&gt; Digikey&lt;/h1&gt;
+&lt;br&gt;
+&lt;b&gt;
+102-5018-ND
+&lt;/b&gt;
+
+&lt;p&gt;
+Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="P78E05-1000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="P78E05-1000">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT/GND" pad="3"/>
+<connect gate="G$1" pin="GND/-VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -25282,7 +25290,7 @@ Description&lt;br&gt;
 <part name="U$7" library="SnapEDA-Library" deviceset="FQP12P20" device=""/>
 <part name="U$8" library="SnapEDA-Library" deviceset="FQP12P20" device=""/>
 <part name="U$10" library="SnapEDA-Library" deviceset="FQP12P20" device=""/>
-<part name="U$11" library="SnapEDA-Library" deviceset="P78E05-1000" device=""/>
+<part name="U$11" library="SnapEDA-Library_Paul" deviceset="P78E05-1000" device=""/>
 <part name="TEENSY_I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="SPI2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 </parts>
@@ -25892,9 +25900,9 @@ Description&lt;br&gt;
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="-160.02" y1="157.48" x2="-160.02" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="157.48" x2="-99.06" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="157.48" x2="-104.14" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="157.48" x2="-93.98" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-104.14" y1="157.48" x2="-147.32" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="157.48" x2="-147.32" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="157.48" x2="-160.02" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="160.02" x2="-147.32" y2="157.48" width="0.1524" layer="91"/>
 <junction x="-147.32" y="157.48"/>
@@ -25905,8 +25913,9 @@ Description&lt;br&gt;
 <wire x1="-170.18" y1="157.48" x2="-160.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="-104.14" y="157.48" size="1.778" layer="95" rot="R180"/>
 <pinref part="U$11" gate="G$1" pin="GND/-VOUT"/>
-<wire x1="-104.14" y1="165.1" x2="-104.14" y2="157.48" width="0.1524" layer="91"/>
-<junction x="-104.14" y="157.48"/>
+<wire x1="-104.14" y1="170.18" x2="-93.98" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="170.18" x2="-93.98" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-93.98" y="157.48"/>
 </segment>
 <segment>
 <pinref part="INA219" gate="A" pin="GND"/>
@@ -26144,8 +26153,7 @@ Description&lt;br&gt;
 <wire x1="-91.44" y1="165.1" x2="-71.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="P$1"/>
 <pinref part="U$11" gate="G$1" pin="+VOUT/GND"/>
-<wire x1="-104.14" y1="170.18" x2="-99.06" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="170.18" x2="-99.06" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="165.1" x2="-99.06" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-99.06" y="165.1"/>
 </segment>
 </net>
@@ -27645,8 +27653,8 @@ Description&lt;br&gt;
 <approved hash="104,5,358.14,2.54,U4,VREF10,N$4,,,"/>
 <approved hash="202,2,-299.72,86.36,U5,VREF,,,,"/>
 <approved hash="104,2,-264.16,99.06,U5,VCC,3.3V,,,"/>
-<approved hash="104,2,-104.14,170.18,U$11,+VOUT/GND,VIN,,,"/>
-<approved hash="104,2,-104.14,165.1,U$11,GND/-VOUT,GND,,,"/>
+<approved hash="104,2,-104.14,170.18,U$11,GND/-VOUT,GND,,,"/>
+<approved hash="104,2,-104.14,165.1,U$11,+VOUT/GND,VIN,,,"/>
 <approved hash="106,5,358.14,2.54,N$4,,,,,"/>
 <approved hash="106,5,358.14,0,N$14,,,,,"/>
 <approved hash="106,5,358.14,-2.54,N$19,,,,,"/>
