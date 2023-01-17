@@ -24959,6 +24959,30 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <label x="137.16" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="NANO_RX" class="0">
+<segment>
+<pinref part="USB" gate="G$1" pin="RX0"/>
+<wire x1="91.44" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
+<label x="93.98" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U10" gate="G$1" pin="TX8"/>
+<wire x1="147.32" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="134.62" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NANO_TX" class="0">
+<segment>
+<pinref part="USB" gate="G$1" pin="TX1"/>
+<wire x1="91.44" y1="5.08" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
+<label x="93.98" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U10" gate="G$1" pin="RX8"/>
+<wire x1="147.32" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="134.62" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -25023,8 +25047,8 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <attribute name="NAME" x="-156.21" y="219.9386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-156.21" y="215.138" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="-68.58" y="200.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-68.58" y="200.406" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND5" gate="1" x="-68.58" y="241.3" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-68.58" y="241.046" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="U$9" gate="G$1" x="-71.12" y="264.16" smashed="yes" rot="R90"/>
 <instance part="RESET" gate="G$1" x="-294.64" y="162.56" smashed="yes" rot="R180">
@@ -25221,8 +25245,8 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <segment>
 <pinref part="U$9" gate="G$1" pin="-"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-68.58" y1="203.2" x2="-68.58" y2="259.08" width="0.1524" layer="91"/>
-<label x="-66.04" y="203.2" size="1.778" layer="95"/>
+<wire x1="-68.58" y1="243.84" x2="-68.58" y2="259.08" width="0.1524" layer="91"/>
+<label x="-73.66" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
