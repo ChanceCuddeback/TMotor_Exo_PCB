@@ -22967,122 +22967,6 @@ Source: &lt;a href="https://store.arduino.cc/arduino-nano-every"&gt; Datasheet &
 </deviceset>
 </devicesets>
 </library>
-<library name="Ben_Library">
-<packages>
-<package name="XT30_HORIZONTAL">
-<pad name="-" x="2.5" y="0" drill="1.7"/>
-<pad name="+" x="-2.5" y="0" drill="1.7"/>
-<pad name="P$3" x="5.5" y="10" drill="1"/>
-<pad name="P$4" x="-5.5" y="10" drill="1"/>
-<wire x1="5" y1="13" x2="-5" y2="13" width="0.127" layer="21"/>
-<wire x1="-5" y1="13" x2="-5" y2="11" width="0.127" layer="21"/>
-<wire x1="-5" y1="11" x2="-5" y2="9" width="0.127" layer="21"/>
-<wire x1="-5" y1="9" x2="-5" y2="4" width="0.127" layer="21"/>
-<wire x1="-5" y1="4" x2="-3.5" y2="4" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="4" x2="-1.5" y2="4" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4" x2="1.5" y2="4" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4" x2="3.5" y2="4" width="0.127" layer="21"/>
-<wire x1="3.5" y1="4" x2="5" y2="4" width="0.127" layer="21"/>
-<wire x1="5" y1="4" x2="5" y2="9" width="0.127" layer="21"/>
-<wire x1="5" y1="9" x2="5" y2="11" width="0.127" layer="21"/>
-<wire x1="5" y1="11" x2="5" y2="13" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="4" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-3.5" y2="1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="1" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4" x2="1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="1" width="0.127" layer="21"/>
-<wire x1="3.5" y1="4" x2="3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.5" x2="3.5" y2="1" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="11" x2="-6" y2="11" width="0.127" layer="21"/>
-<wire x1="-5" y1="9" x2="-6" y2="9" width="0.127" layer="21"/>
-<wire x1="5" y1="11" x2="6" y2="11" width="0.127" layer="21"/>
-<wire x1="5" y1="9" x2="6" y2="9" width="0.127" layer="21"/>
-<wire x1="-3" y1="6.5" x2="-3" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="5.5" x2="-2" y2="5.5" width="0.127" layer="21"/>
-<wire x1="2" y1="5.5" x2="3" y2="5.5" width="0.127" layer="21"/>
-</package>
-<package name="XT30_H_F">
-<pad name="+" x="2.5" y="0.15" drill="1.7"/>
-<pad name="-" x="-2.5" y="0.15" drill="1.7"/>
-<pad name="P$3" x="5.5" y="5.135" drill="1"/>
-<pad name="P$4" x="-5.5" y="5.135" drill="1"/>
-<wire x1="5" y1="7.5" x2="-5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="6.15" x2="-5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-5" y1="4.15" x2="-3.5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="4.15" x2="-1.5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.15" x2="1.5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4.15" x2="3.5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="3.5" y1="4.15" x2="5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="5" y1="6.15" x2="5" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="4.15" x2="-3.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.65" x2="-3.5" y2="1.15" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.15" x2="-1.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2.65" x2="-1.5" y2="1.15" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4.15" x2="1.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.65" x2="1.5" y2="1.15" width="0.127" layer="21"/>
-<wire x1="3.5" y1="4.15" x2="3.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.65" x2="3.5" y2="1.15" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.65" x2="3.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.65" x2="-1.5" y2="2.65" width="0.127" layer="21"/>
-<wire x1="-5" y1="6.15" x2="-6" y2="6.15" width="0.127" layer="21"/>
-<wire x1="-5" y1="4.15" x2="-6" y2="4.15" width="0.127" layer="21"/>
-<wire x1="5" y1="6.15" x2="6" y2="6.15" width="0.127" layer="21"/>
-<wire x1="5" y1="4.15" x2="6" y2="4.15" width="0.127" layer="21"/>
-<wire x1="2.08" y1="6.65" x2="2.08" y2="4.65" width="0.127" layer="21"/>
-<wire x1="1.08" y1="5.65" x2="3.08" y2="5.65" width="0.127" layer="21"/>
-<wire x1="-3.08" y1="5.65" x2="-2.08" y2="5.65" width="0.127" layer="21"/>
-<wire x1="-5" y1="6.15" x2="-5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="5" y1="6.15" x2="5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="7.5" x2="-4.4" y2="14.15" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="14.15" x2="-2.5" y2="14.15" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="14.15" x2="4.4" y2="14.15" width="0.127" layer="21"/>
-<wire x1="4.4" y1="14.15" x2="4.4" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="14.15" x2="-2.5" y2="7.5" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="XT30">
-<pin name="+" x="-5.08" y="5.08" length="middle"/>
-<pin name="-" x="-5.08" y="-2.54" length="middle"/>
-<wire x1="0" y1="7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="5.08" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="XT30">
-<gates>
-<gate name="G$1" symbol="XT30" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XT30_HORIZONTAL">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="FEMALW" package="XT30_H_F">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-lstb" urn="urn:adsk.eagle:library:162">
 <description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
@@ -23250,69 +23134,6 @@ W = angled&lt;p&gt;
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/2SJ305TE85LF/?ref=eda"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="XT30PW-M">
-<description>&lt;30A Low Temperature Rise Fire Retardant Plug&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="XT30PWF">
-<pad name="-" x="-2.5" y="-5.912" drill="1.7" diameter="2.55"/>
-<pad name="+" x="2.5" y="-5.912" drill="1.7" diameter="2.55"/>
-<pad name="3" x="5.5" y="-0.712" drill="1" diameter="1.5"/>
-<pad name="4" x="-5.5" y="-0.712" drill="1" diameter="1.5"/>
-<text x="0" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.95" y1="8.187" x2="4.95" y2="8.187" width="0.2" layer="51"/>
-<wire x1="4.95" y1="8.187" x2="4.95" y2="-6.762" width="0.2" layer="51"/>
-<wire x1="4.95" y1="-6.762" x2="-4.95" y2="-6.762" width="0.2" layer="51"/>
-<wire x1="-4.95" y1="-6.762" x2="-4.95" y2="8.187" width="0.2" layer="51"/>
-<wire x1="-7.25" y1="8.188" x2="7.25" y2="8.188" width="0.1" layer="51"/>
-<wire x1="7.25" y1="8.188" x2="7.25" y2="-8.188" width="0.1" layer="51"/>
-<wire x1="7.25" y1="-8.188" x2="-7.25" y2="-8.188" width="0.1" layer="51"/>
-<wire x1="-7.25" y1="-8.188" x2="-7.25" y2="8.188" width="0.1" layer="51"/>
-<wire x1="-4.95" y1="5.237" x2="-4.95" y2="8.187" width="0.1" layer="21"/>
-<wire x1="-4.95" y1="8.187" x2="4.95" y2="8.187" width="0.1" layer="21"/>
-<wire x1="4.95" y1="8.187" x2="4.95" y2="5.237" width="0.1" layer="21"/>
-<wire x1="-4.95" y1="2.737" x2="-4.95" y2="-6.762" width="0.1" layer="21"/>
-<wire x1="-4.95" y1="-6.762" x2="-4" y2="-6.762" width="0.1" layer="21"/>
-<wire x1="4" y1="-6.762" x2="4.95" y2="-6.762" width="0.1" layer="21"/>
-<wire x1="4.95" y1="-6.762" x2="4.95" y2="2.737" width="0.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="XT30PW-F">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="0" y="0" length="middle"/>
-<pin name="-" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="XT30PW-F">
-<gates>
-<gate name="G$1" symbol="XT30PW-F" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XT30PWF">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -24589,6 +24410,51 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </deviceset>
 </devicesets>
 </library>
+<library name="XT30UPB-F">
+<packages>
+<package name="XT30UPB-F">
+<pad name="+" x="0" y="0" drill="2.1"/>
+<pad name="-" x="5" y="0" drill="2.1"/>
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="7.6" y1="2.6" x2="7.6" y2="1.7" width="0.2" layer="51"/>
+<wire x1="7.6" y1="1.6" x2="7.6" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="2.6" x2="6.7" y2="2.6" width="0.2" layer="51"/>
+<wire x1="6.7" y1="2.6" x2="7.6" y2="2.6" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="-2.6" x2="7.6" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="6.7" y1="2.6" x2="7.6" y2="1.7" width="0.2" layer="51"/>
+<wire x1="7.6" y1="1.7" x2="7.6" y2="1.6" width="0.2" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="XT30UPB-F">
+<wire x1="0" y1="0" x2="0" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="+" x="2.54" y="0" length="middle" direction="out" rot="R270"/>
+<pin name="-" x="10.16" y="0" length="middle" direction="out" rot="R270"/>
+<wire x1="0" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XT30UPB-F">
+<description>XT30 PCB Mount Upright Female Power Connector. 15A cont. 30A burst.</description>
+<gates>
+<gate name="G$1" symbol="XT30UPB-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XT30UPB-F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24624,7 +24490,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10R"/>
 <part name="USB" library="ABX00028" deviceset="ABX00028" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U$9" library="Ben_Library" deviceset="XT30" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="47R"/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -24648,8 +24513,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SYNC_DEFAULT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="L_0" library="XT30PW-M" deviceset="XT30PW-F" device=""/>
-<part name="R_0" library="XT30PW-M" deviceset="XT30PW-F" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="470R"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="100nF"/>
@@ -24686,17 +24549,12 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <part name="CAN_R0" library="SnapEDA-Library" deviceset="5015680207" device=""/>
 <part name="CAN_R1" library="SnapEDA-Library" deviceset="5015680207" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R_1" library="XT30PW-M" deviceset="XT30PW-F" device=""/>
-<part name="L_1" library="XT30PW-M" deviceset="XT30PW-F" device=""/>
 <part name="STOP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="120R"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="120R"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="100nF"/>
 <part name="FUSE_L0" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
-<part name="FUSE_R0" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
-<part name="FUSE_R1" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
-<part name="FUSE_L1" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
 <part name="U$6" library="SnapEDA-Library (1)" deviceset="0458002.DR" device=""/>
 <part name="NANO_I2C" library="SnapEDA-Library" deviceset="5015680307" device=""/>
 <part name="U10" library="SnapEDA-Library" deviceset="DEV-16771" device=""/>
@@ -24704,9 +24562,17 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <part name="TEENSY_I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="SPI2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="XT30UPB-F" library="XT30UPB-F" deviceset="XT30UPB-F" device="" value="L_0"/>
+<part name="FUSE_L1" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="XT30UPB-F1" library="XT30UPB-F" deviceset="XT30UPB-F" device="" value="L_0"/>
+<part name="FUSE_L2" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="XT30UPB-F2" library="XT30UPB-F" deviceset="XT30UPB-F" device="" value="L_0"/>
+<part name="FUSE_L3" library="SamacSys_Parts" deviceset="0456020.ER" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="XT30UPB-F3" library="XT30UPB-F" deviceset="XT30UPB-F" device="" value="L_0"/>
+<part name="XT30UPB-F4" library="XT30UPB-F" deviceset="XT30UPB-F" device="" value="L_0"/>
 </parts>
 <sheets>
 <sheet>
@@ -25050,7 +24916,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <instance part="GND5" gate="1" x="-68.58" y="241.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-68.58" y="241.046" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="U$9" gate="G$1" x="-71.12" y="264.16" smashed="yes" rot="R90"/>
 <instance part="RESET" gate="G$1" x="-294.64" y="162.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-292.1" y="167.386" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="-292.1" y="156.972" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -25064,14 +24929,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </instance>
 <instance part="GND21" gate="1" x="-309.88" y="134.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-309.88" y="134.366" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="L_0" gate="G$1" x="-30.48" y="297.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-22.86" y="313.69" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="-25.4" y="313.69" size="1.778" layer="96" rot="MR90" align="center-left"/>
-</instance>
-<instance part="R_0" gate="G$1" x="33.02" y="297.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="40.64" y="313.69" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="38.1" y="313.69" size="1.778" layer="96" rot="MR90" align="center-left"/>
 </instance>
 <instance part="U5" gate="A" x="-281.94" y="88.9" smashed="yes">
 <attribute name="NAME" x="-294.64" y="102.6" size="2.0828" layer="95" ratio="10" rot="SR0"/>
@@ -25096,14 +24953,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <instance part="GND12" gate="1" x="-259.08" y="68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-259.08" y="68.326" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R_1" gate="G$1" x="63.5" y="297.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="71.12" y="313.69" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="68.58" y="313.69" size="1.778" layer="96" rot="MR90" align="center-left"/>
-</instance>
-<instance part="L_1" gate="G$1" x="0" y="297.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="7.62" y="313.69" size="1.778" layer="95" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="5.08" y="313.69" size="1.778" layer="96" rot="MR90" align="center-left"/>
-</instance>
 <instance part="STOP" gate="G$1" x="-294.64" y="205.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-292.1" y="210.566" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="-292.1" y="200.152" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -25123,21 +24972,9 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <attribute name="NAME" x="-301.244" y="185.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-298.704" y="187.579" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FUSE_L0" gate="G$1" x="-27.94" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="-34.29" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-31.75" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="FUSE_R0" gate="G$1" x="35.56" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.21" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="31.75" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="FUSE_R1" gate="G$1" x="66.04" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.69" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="62.23" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="FUSE_L1" gate="G$1" x="2.54" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="-3.81" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-1.27" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="FUSE_L0" gate="G$1" x="-35.56" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="-41.91" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-39.37" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="U$6" gate="G$1" x="-43.18" y="165.1" smashed="yes"/>
 <instance part="NANO_I2C" gate="G$1" x="-124.46" y="259.08" smashed="yes" rot="R90">
@@ -25156,18 +24993,35 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <attribute name="VALUE" x="-293.37" y="231.14" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="-293.37" y="247.142" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="GND8" gate="1" x="-33.02" y="284.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-33.02" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND8" gate="1" x="-27.94" y="284.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-27.94" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="-2.54" y="284.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-2.54" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="XT30UPB-F" gate="G$1" x="-38.1" y="304.8" smashed="yes"/>
+<instance part="FUSE_L1" gate="G$1" x="5.08" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="-1.27" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="1.27" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="GND24" gate="1" x="30.48" y="284.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="30.48" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND9" gate="1" x="12.7" y="284.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="12.7" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND25" gate="1" x="60.96" y="284.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="60.96" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="XT30UPB-F1" gate="G$1" x="2.54" y="304.8" smashed="yes"/>
+<instance part="FUSE_L2" gate="G$1" x="45.72" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.37" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="41.91" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="GND24" gate="1" x="53.34" y="284.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="53.34" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="XT30UPB-F2" gate="G$1" x="43.18" y="304.8" smashed="yes"/>
+<instance part="FUSE_L3" gate="G$1" x="86.36" y="254" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.01" y="255.27" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="82.55" y="255.27" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="GND25" gate="1" x="93.98" y="284.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="93.98" y="284.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="XT30UPB-F3" gate="G$1" x="83.82" y="304.8" smashed="yes"/>
+<instance part="XT30UPB-F4" gate="G$1" x="-78.74" y="264.16" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -25243,7 +25097,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <label x="-256.54" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="-"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-68.58" y1="243.84" x2="-68.58" y2="259.08" width="0.1524" layer="91"/>
 <label x="-73.66" y="243.84" size="1.778" layer="95"/>
@@ -25288,24 +25141,20 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <junction x="-307.34" y="182.88"/>
 </segment>
 <segment>
-<pinref part="R_0" gate="G$1" pin="-"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="30.48" y1="297.18" x2="30.48" y2="287.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R_1" gate="G$1" pin="-"/>
-<pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="60.96" y1="297.18" x2="60.96" y2="287.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="L_0" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-33.02" y1="297.18" x2="-33.02" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="299.72" x2="-27.94" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="L_1" gate="G$1" pin="-"/>
-<wire x1="-2.54" y1="297.18" x2="-2.54" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="12.7" y1="299.72" x2="12.7" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="53.34" y1="299.72" x2="53.34" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="1" pin="GND"/>
+<wire x1="93.98" y1="299.72" x2="93.98" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -25320,26 +25169,16 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <segment>
 <wire x1="-76.2" y1="203.2" x2="-144.78" y2="203.2" width="0.1524" layer="91"/>
 <label x="-88.9" y="203.2" size="1.778" layer="95"/>
-<pinref part="U$9" gate="G$1" pin="+"/>
 <wire x1="-76.2" y1="203.2" x2="-76.2" y2="254" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="254" x2="-76.2" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="254" x2="-27.94" y2="254" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="254" x2="-35.56" y2="254" width="0.1524" layer="91"/>
 <junction x="-76.2" y="254"/>
-<junction x="-27.94" y="254"/>
 <pinref part="FUSE_L0" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="254" x2="2.54" y2="254" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="203.2" x2="-144.78" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="SHUNT" gate="A" pin="2"/>
 <junction x="-144.78" y="203.2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="218.44" x2="-147.32" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="FUSE_L1" gate="G$1" pin="1"/>
-<junction x="2.54" y="254"/>
-<pinref part="FUSE_R0" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="254" x2="35.56" y2="254" width="0.1524" layer="91"/>
-<junction x="35.56" y="254"/>
-<pinref part="FUSE_R1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="254" x2="66.04" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -25530,38 +25369,8 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="L_0" gate="G$1" pin="+"/>
-<wire x1="-30.48" y1="297.18" x2="-30.48" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="294.64" x2="-27.94" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="FUSE_L0" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="271.78" x2="-27.94" y2="294.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="L_1" gate="G$1" pin="+"/>
-<wire x1="0" y1="297.18" x2="0" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="0" y1="294.64" x2="2.54" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="FUSE_L1" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="271.78" x2="2.54" y2="294.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$55" class="0">
-<segment>
-<pinref part="R_0" gate="G$1" pin="+"/>
-<wire x1="33.02" y1="297.18" x2="33.02" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="294.64" x2="35.56" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="FUSE_R0" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="271.78" x2="35.56" y2="294.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="R_1" gate="G$1" pin="+"/>
-<wire x1="63.5" y1="297.18" x2="63.5" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="294.64" x2="66.04" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="FUSE_R1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="271.78" x2="66.04" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="271.78" x2="-35.56" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA_TEENSY" class="0">
@@ -25604,6 +25413,42 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <pinref part="SPI2" gate="1" pin="4"/>
 <wire x1="-302.26" y1="243.84" x2="-309.88" y2="243.84" width="0.1524" layer="91"/>
 <label x="-309.88" y="243.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="VCC1" class="0">
+<segment>
+<wire x1="-35.56" y1="254" x2="5.08" y2="254" width="0.1524" layer="91"/>
+<pinref part="FUSE_L1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="FUSE_L1" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="271.78" x2="5.08" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC2" class="0">
+<segment>
+<wire x1="5.08" y1="254" x2="45.72" y2="254" width="0.1524" layer="91"/>
+<pinref part="FUSE_L2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="FUSE_L2" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="271.78" x2="45.72" y2="299.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC3" class="0">
+<segment>
+<wire x1="45.72" y1="254" x2="86.36" y2="254" width="0.1524" layer="91"/>
+<pinref part="FUSE_L3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="FUSE_L3" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="271.78" x2="86.36" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
