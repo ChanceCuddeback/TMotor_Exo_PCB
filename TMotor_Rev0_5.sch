@@ -25098,8 +25098,9 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-68.58" y1="243.84" x2="-68.58" y2="259.08" width="0.1524" layer="91"/>
 <label x="-73.66" y="243.84" size="1.778" layer="95"/>
+<pinref part="XT30UPB-F4" gate="G$1" pin="-"/>
+<wire x1="-68.58" y1="243.84" x2="-68.58" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -25143,18 +25144,30 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="-27.94" y1="299.72" x2="-27.94" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F" gate="G$1" pin="-"/>
+<wire x1="-27.94" y1="304.8" x2="-27.94" y2="287.02" width="0.1524" layer="91"/>
+<junction x="-27.94" y="287.02"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="12.7" y1="299.72" x2="12.7" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F1" gate="G$1" pin="-"/>
+<wire x1="12.7" y1="304.8" x2="12.7" y2="287.02" width="0.1524" layer="91"/>
+<junction x="12.7" y="287.02"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="53.34" y1="299.72" x2="53.34" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F2" gate="G$1" pin="-"/>
+<wire x1="53.34" y1="304.8" x2="53.34" y2="287.02" width="0.1524" layer="91"/>
+<junction x="53.34" y="287.02"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="93.98" y1="299.72" x2="93.98" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F3" gate="G$1" pin="-"/>
+<wire x1="93.98" y1="304.8" x2="93.98" y2="287.02" width="0.1524" layer="91"/>
+<junction x="93.98" y="287.02"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -25163,22 +25176,6 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <wire x1="-264.16" y1="99.06" x2="-256.54" y2="99.06" width="0.1524" layer="91"/>
 <label x="-256.54" y="99.06" size="1.778" layer="95"/>
 <junction x="-256.54" y="99.06"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<wire x1="-76.2" y1="203.2" x2="-144.78" y2="203.2" width="0.1524" layer="91"/>
-<label x="-88.9" y="203.2" size="1.778" layer="95"/>
-<wire x1="-76.2" y1="203.2" x2="-76.2" y2="254" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="254" x2="-76.2" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="254" x2="-35.56" y2="254" width="0.1524" layer="91"/>
-<junction x="-76.2" y="254"/>
-<pinref part="FUSE_L0" gate="G$1" pin="1"/>
-<wire x1="-144.78" y1="203.2" x2="-144.78" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="SHUNT" gate="A" pin="2"/>
-<junction x="-144.78" y="203.2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-144.78" y1="218.44" x2="-147.32" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -25371,6 +25368,9 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <segment>
 <pinref part="FUSE_L0" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="271.78" x2="-35.56" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F" gate="G$1" pin="+"/>
+<wire x1="-35.56" y1="304.8" x2="-35.56" y2="271.78" width="0.1524" layer="91"/>
+<junction x="-35.56" y="271.78"/>
 </segment>
 </net>
 <net name="SDA_TEENSY" class="0">
@@ -25417,38 +25417,56 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </net>
 <net name="VCC1" class="0">
 <segment>
-<wire x1="-35.56" y1="254" x2="5.08" y2="254" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="203.2" x2="-144.78" y2="203.2" width="0.1524" layer="91"/>
+<label x="-88.9" y="203.2" size="1.778" layer="95"/>
+<wire x1="-76.2" y1="203.2" x2="-76.2" y2="254" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="254" x2="-76.2" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="203.2" x2="-144.78" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="SHUNT" gate="A" pin="2"/>
+<junction x="-144.78" y="203.2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-144.78" y1="218.44" x2="-147.32" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="FUSE_L0" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="254" x2="-35.56" y2="254" width="0.1524" layer="91"/>
+<junction x="-76.2" y="254"/>
 <pinref part="FUSE_L1" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="254" x2="5.08" y2="254" width="0.1524" layer="91"/>
+<junction x="-35.56" y="254"/>
+<pinref part="FUSE_L2" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="254" x2="45.72" y2="254" width="0.1524" layer="91"/>
+<junction x="5.08" y="254"/>
+<pinref part="FUSE_L3" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="254" x2="86.36" y2="254" width="0.1524" layer="91"/>
+<junction x="45.72" y="254"/>
+<pinref part="XT30UPB-F4" gate="G$1" pin="+"/>
+<wire x1="-76.2" y1="254" x2="-76.2" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="FUSE_L1" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="271.78" x2="5.08" y2="299.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC2" class="0">
-<segment>
-<wire x1="5.08" y1="254" x2="45.72" y2="254" width="0.1524" layer="91"/>
-<pinref part="FUSE_L2" gate="G$1" pin="1"/>
+<pinref part="XT30UPB-F1" gate="G$1" pin="+"/>
+<wire x1="5.08" y1="304.8" x2="5.08" y2="271.78" width="0.1524" layer="91"/>
+<junction x="5.08" y="271.78"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="FUSE_L2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="271.78" x2="45.72" y2="299.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC3" class="0">
-<segment>
-<wire x1="45.72" y1="254" x2="86.36" y2="254" width="0.1524" layer="91"/>
-<pinref part="FUSE_L3" gate="G$1" pin="1"/>
+<pinref part="XT30UPB-F2" gate="G$1" pin="+"/>
+<wire x1="45.72" y1="304.8" x2="45.72" y2="271.78" width="0.1524" layer="91"/>
+<junction x="45.72" y="271.78"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="FUSE_L3" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="271.78" x2="86.36" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="XT30UPB-F3" gate="G$1" pin="+"/>
+<wire x1="86.36" y1="304.8" x2="86.36" y2="271.78" width="0.1524" layer="91"/>
+<junction x="86.36" y="271.78"/>
 </segment>
 </net>
 </nets>
