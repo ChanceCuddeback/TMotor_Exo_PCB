@@ -24907,9 +24907,9 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <attribute name="VALUE" x="-298.704" y="187.579" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$6" gate="G$1" x="-43.18" y="165.1" smashed="yes"/>
-<instance part="NANO_I2C" gate="G$1" x="-124.46" y="259.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-133.35" y="251.46" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-111.76" y="251.46" size="1.778" layer="96" rot="R90"/>
+<instance part="NANO_I2C" gate="G$1" x="-299.72" y="271.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="-292.1" y="262.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-292.1" y="284.48" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$11" gate="G$1" x="-124.46" y="167.64" smashed="yes">
 <attribute name="NAME" x="-139.7" y="175.26" size="1.778" layer="95"/>
@@ -25130,8 +25130,8 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </segment>
 <segment>
 <pinref part="NANO_I2C" gate="G$1" pin="1"/>
-<wire x1="-129.54" y1="246.38" x2="-129.54" y2="238.76" width="0.1524" layer="91"/>
-<label x="-129.54" y="238.76" size="1.778" layer="95" rot="R270"/>
+<wire x1="-287.02" y1="266.7" x2="-279.4" y2="266.7" width="0.1524" layer="91"/>
+<label x="-279.4" y="266.7" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="SCL0" class="0">
@@ -25143,8 +25143,8 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </segment>
 <segment>
 <pinref part="NANO_I2C" gate="G$1" pin="3"/>
-<wire x1="-124.46" y1="246.38" x2="-124.46" y2="238.76" width="0.1524" layer="91"/>
-<label x="-124.46" y="238.76" size="1.778" layer="95" rot="R270"/>
+<wire x1="-287.02" y1="271.78" x2="-279.4" y2="271.78" width="0.1524" layer="91"/>
+<label x="-279.4" y="276.86" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="VIN" class="0">
