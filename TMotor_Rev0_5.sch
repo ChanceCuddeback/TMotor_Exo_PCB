@@ -24599,7 +24599,7 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <net name="SDA0" class="0">
 <segment>
 <junction x="48.26" y="22.86"/>
-<label x="48.26" y="22.86" size="1.778" layer="95" rot="R180"/>
+<label x="48.26" y="25.4" size="1.778" layer="95" rot="R180"/>
 <pinref part="USB" gate="G$1" pin="A4"/>
 <wire x1="60.96" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
