@@ -24788,6 +24788,19 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <sheet>
 <description>Motor Drivers &amp; Power</description>
 <plain>
+<text x="-91.44" y="292.1" size="1.778" layer="91">External power supply</text>
+<text x="-50.8" y="330.2" size="1.778" layer="91">External power supply</text>
+<text x="-10.16" y="330.2" size="1.778" layer="91">External power supply</text>
+<text x="35.56" y="330.2" size="1.778" layer="91">External power supply</text>
+<text x="78.74" y="330.2" size="1.778" layer="91">External power supply</text>
+<text x="-208.28" y="226.06" size="1.778" layer="91">Here is to measure the voltage.
+INA219 is a sensor that will use the info captured from pins VIN+ and VIN- to estimate the voltage magnitude of the power supply.
+Note that eventually both VIN+ and VIN- are indirectly connected to the positive terminals of the battery voltages measured.
+INA219 requires an external SHUNT circuit as shown here.</text>
+<text x="-238.76" y="190.5" size="1.778" layer="91">VS: Power supply for the INA 219 sensor (INA 219 takes 3 to 5.5 V)
+GND: Ground for the INA 219 sensor</text>
+<text x="-317.5" y="106.68" size="1.778" layer="91">Verify: CANTX is the CAN BUS  transmission pin
+Verify: CANRX is the CAN BUS receiver pin</text>
 </plain>
 <instances>
 <instance part="C15" gate="G$1" x="-71.12" y="162.56" smashed="yes">
@@ -26456,6 +26469,10 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
