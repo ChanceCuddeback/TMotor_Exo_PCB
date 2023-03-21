@@ -23660,30 +23660,6 @@ W = angled&lt;p&gt;
 </library>
 <library name="SnapEDA-Library">
 <packages>
-<package name="SOIC127P599X175-8N">
-<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.95" y1="2.4525" x2="1.95" y2="2.4525" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-2.525" x2="1.95" y2="-2.525" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="2.4525" x2="-1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="1.95" y1="2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="-3.705" y1="2.7025" x2="3.705" y2="2.7025" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="-2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="2.7025" x2="-3.705" y2="-2.7025" width="0.05" layer="39"/>
-<wire x1="3.705" y1="2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
-<text x="-3.56" y="-2.902" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-3.56" y="2.902" size="1.27" layer="25">&gt;NAME</text>
-<smd name="1" x="-2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="2" x="-2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="3" x="-2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="4" x="-2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="5" x="2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="6" x="2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="7" x="2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="8" x="2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-</package>
 <package name="MOLEX_5015680207">
 <rectangle x1="0.1238" y1="1.7238" x2="0.8762" y2="3.3762" layer="29"/>
 <rectangle x1="-0.8762" y1="1.7238" x2="-0.1238" y2="3.3762" layer="29"/>
@@ -23822,22 +23798,6 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="SN65HVD230MDREP">
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.41" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.41" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.41" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.41" layer="94"/>
-<text x="-12.7" y="13.7" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-12.7" y="-16.7" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="D" x="-17.78" y="5.08" length="middle" direction="in"/>
-<pin name="R" x="-17.78" y="2.54" length="middle" direction="in"/>
-<pin name="RS" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="VREF" x="-17.78" y="-2.54" length="middle" direction="in"/>
-<pin name="VCC" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="CANH" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="CANL" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-</symbol>
 <symbol name="5015680207">
 <wire x1="-7.62" y1="6.35" x2="-6.35" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
@@ -23917,28 +23877,6 @@ W = angled&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SN65HVD230MDREP" prefix="U">
-<gates>
-<gate name="A" symbol="SN65HVD230MDREP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC127P599X175-8N">
-<connects>
-<connect gate="A" pin="CANH" pad="7"/>
-<connect gate="A" pin="CANL" pad="6"/>
-<connect gate="A" pin="D" pad="1"/>
-<connect gate="A" pin="GND" pad="2"/>
-<connect gate="A" pin="R" pad="4"/>
-<connect gate="A" pin="RS" pad="8"/>
-<connect gate="A" pin="VCC" pad="3"/>
-<connect gate="A" pin="VREF" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="5015680207" prefix="J">
 <gates>
 <gate name="G$1" symbol="5015680207" x="0" y="0"/>
@@ -24208,6 +24146,85 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 </deviceset>
 </devicesets>
 </library>
+<library name="SN65HVD230DR">
+<packages>
+<package name="SOIC127P599X175-8N">
+<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.95" y1="2.4525" x2="1.95" y2="2.4525" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-2.525" x2="1.95" y2="-2.525" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="2.4525" x2="-1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="-3.705" y1="2.7025" x2="3.705" y2="2.7025" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="-2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="2.7025" x2="-3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="3.705" y1="2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
+<text x="-3.56" y="-2.902" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.56" y="2.902" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="2" x="-2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="3" x="-2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="4" x="-2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="5" x="2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="6" x="2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="7" x="2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="8" x="2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SN65HVD230DR">
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.41" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.41" layer="94"/>
+<text x="-12.7" y="13.7" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-16.7" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="D" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="RS" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="VCC" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="CANH" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="CANL" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="R" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VREF" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN65HVD230DR" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/SN65HVD230DR/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="SN65HVD230DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P599X175-8N">
+<connects>
+<connect gate="A" pin="CANH" pad="7"/>
+<connect gate="A" pin="CANL" pad="6"/>
+<connect gate="A" pin="D" pad="1"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="R" pad="4"/>
+<connect gate="A" pin="RS" pad="8"/>
+<connect gate="A" pin="VCC" pad="3"/>
+<connect gate="A" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 3.3 V CAN Transceiver with Standby Mode "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="SN65HVD230DR"/>
+<attribute name="PACKAGE" value="SOIC-8 Texas Instruments"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SN65HVD230DR/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24266,7 +24283,7 @@ Non-Isolated PoL Module DC DC Converter 1 Output 5V 1A 8V - 36V Input&lt;/p&gt;<
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="100nF"/>
 <part name="U3" library="Digikey" deviceset="INA125U" device=""/>
 <part name="U4" library="Digikey" deviceset="INA125U" device=""/>
-<part name="U5" library="SnapEDA-Library" deviceset="SN65HVD230MDREP" device=""/>
+<part name="U5" library="SN65HVD230DR" deviceset="SN65HVD230DR" device=""/>
 <part name="CAN_L0" library="SnapEDA-Library" deviceset="5015680207" device=""/>
 <part name="CAN_L1" library="SnapEDA-Library" deviceset="5015680207" device=""/>
 <part name="CAN_R0" library="SnapEDA-Library" deviceset="5015680207" device=""/>
@@ -24828,7 +24845,7 @@ Verify: CANRX is the CAN BUS receiver pin</text>
 <wire x1="-259.08" y1="78.74" x2="-259.08" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="U5" gate="A" pin="RS"/>
-<wire x1="-299.72" y1="88.9" x2="-309.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-299.72" y1="91.44" x2="-309.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-309.88" y1="88.9" x2="-309.88" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-309.88" y1="71.12" x2="-259.08" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-259.08" y="71.12"/>
@@ -25060,7 +25077,7 @@ Verify: CANRX is the CAN BUS receiver pin</text>
 <net name="CANRX" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="R"/>
-<wire x1="-299.72" y1="91.44" x2="-309.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="88.9" x2="-309.88" y2="91.44" width="0.1524" layer="91"/>
 <label x="-309.88" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>

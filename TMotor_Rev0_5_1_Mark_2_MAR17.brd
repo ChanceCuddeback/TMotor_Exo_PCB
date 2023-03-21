@@ -272,7 +272,7 @@ Teensy 4.1</text>
 <vertex x="13.335" y="19.05"/>
 <vertex x="13.97" y="19.05"/>
 </polygon>
-<text x="24.13" y="6.985" size="1.778" layer="121" rot="R180">JLCJLCJLCJLC</text>
+<text x="22.225" y="7.62" size="1.778" layer="121" rot="R180">JLCJLCJLCJLC</text>
 <polygon width="0" layer="121">
 <vertex x="-0.635" y="60.325"/>
 <vertex x="0.635" y="60.325"/>
@@ -3206,30 +3206,6 @@ W = angled&lt;p&gt;
 </library>
 <library name="SnapEDA-Library">
 <packages>
-<package name="SOIC127P599X175-8N">
-<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.95" y1="2.4525" x2="1.95" y2="2.4525" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-2.525" x2="1.95" y2="-2.525" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="2.4525" x2="-1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="1.95" y1="2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
-<wire x1="-3.705" y1="2.7025" x2="3.705" y2="2.7025" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="-2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
-<wire x1="-3.705" y1="2.7025" x2="-3.705" y2="-2.7025" width="0.05" layer="39"/>
-<wire x1="3.705" y1="2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
-<text x="-3.56" y="-2.902" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-3.56" y="2.902" size="1.27" layer="25">&gt;NAME</text>
-<smd name="1" x="-2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="2" x="-2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="3" x="-2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="4" x="-2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="5" x="2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="6" x="2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="7" x="2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="8" x="2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-</package>
 <package name="MOLEX_5015680207">
 <rectangle x1="0.1238" y1="1.7238" x2="0.8762" y2="3.3762" layer="29"/>
 <rectangle x1="-0.8762" y1="1.7238" x2="-0.1238" y2="3.3762" layer="29"/>
@@ -3426,6 +3402,34 @@ W = angled&lt;p&gt;
 <wire x1="-2.6" y1="-2.6" x2="7.6" y2="-2.6" width="0.2" layer="51"/>
 <wire x1="6.7" y1="2.6" x2="7.6" y2="1.7" width="0.2" layer="51"/>
 <wire x1="7.6" y1="1.7" x2="7.6" y2="1.6" width="0.2" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="SN65HVD230DR">
+<packages>
+<package name="SOIC127P599X175-8N">
+<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.04" y="2.305" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.95" y1="2.4525" x2="1.95" y2="2.4525" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-2.525" x2="1.95" y2="-2.525" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="2.4525" x2="-1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.4525" x2="1.95" y2="-2.4525" width="0.127" layer="51"/>
+<wire x1="-3.705" y1="2.7025" x2="3.705" y2="2.7025" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="-2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="2.7025" x2="-3.705" y2="-2.7025" width="0.05" layer="39"/>
+<wire x1="3.705" y1="2.7025" x2="3.705" y2="-2.7025" width="0.05" layer="39"/>
+<text x="-3.56" y="-2.902" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.56" y="2.902" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="2" x="-2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="3" x="-2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="4" x="-2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="5" x="2.47" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="6" x="2.47" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="7" x="2.47" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="8" x="2.47" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
 </package>
 </packages>
 </library>
@@ -3856,7 +3860,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="29.3497" y="13.2715" size="1.27" layer="22" ratio="6" rot="SMR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="11.1125" y="1.27" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U5" library="SnapEDA-Library" package="SOIC127P599X175-8N" value="SN65HVD230MDREP" x="1.5875" y="56.1975" smashed="yes" rot="MR180">
+<element name="U5" library="SN65HVD230DR" package="SOIC127P599X175-8N" value="SN65HVD230DR" x="1.5875" y="56.1975" smashed="yes" rot="MR180">
+<attribute name="AVAILABILITY" value="In Stock" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value=" 3.3 V CAN Transceiver with Standby Mode " x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="SN65HVD230DR" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8 Texas Instruments" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PRICE" value="None" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SN65HVD230DR/?ref=eda" x="1.5875" y="56.1975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="6.3055" y="46.9225" size="1.27" layer="28" rot="MR90" align="top-left"/>
 </element>
 <element name="CAN_L0" library="SnapEDA-Library" package="MOLEX_5015680207" value="5015680207" x="32.0675" y="81.0895" smashed="yes" rot="R180">
