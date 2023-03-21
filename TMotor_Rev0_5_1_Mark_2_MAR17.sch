@@ -25945,14 +25945,8 @@ Take the torque sensor raw values (V+IN and V-IN), amplify, and output the ampli
 <approved hash="106,1,147.32,10.16,TRQ_AMP_R,,,,,"/>
 <approved hash="111,5,281.94,-10.16,N$28,,,,,"/>
 <approved hash="111,5,91.44,-10.16,N$33,,,,,"/>
-<approved hash="113,2,-299.043,187.797,FAN,,,,,"/>
 <approved hash="113,4,30.6426,20.9973,SYNC_LED,,,,,"/>
 <approved hash="113,4,134.662,35.8496,RGB_LED,,,,,"/>
-<approved hash="113,2,-299.043,159.857,RESET,,,,,"/>
-<approved hash="113,2,-300.704,139.537,SYNC_DEFAULT,,,,,"/>
-<approved hash="113,2,-299.043,203.037,STOP,,,,,"/>
-<approved hash="113,2,-299.043,220.817,TEENSY_I2C,,,,,"/>
-<approved hash="113,2,-299.678,241.59,SPI2,,,,,"/>
 <approved hash="113,5,256.377,-50.8,FSR_TRQ_R,,,,,"/>
 <approved hash="113,5,93.8174,-53.34,FSR_TRQ_L,,,,,"/>
 </errors>
